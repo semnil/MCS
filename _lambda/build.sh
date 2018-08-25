@@ -23,3 +23,9 @@ rm sam-template.yaml
 rm swagger.yaml
 
 #sam deploy --template-file ../sam-output.yaml --stack-name TGIS --capabilities CAPABILITY_IAM
+
+sed -i "s/domain_placeholder/${MCS_DOMAIN}/g" \
+                          ../index.html
+
+sed -i "s/domain_placeholder/${MCS_DOMAIN}/g" \
+                          ../js/getSchedule.js

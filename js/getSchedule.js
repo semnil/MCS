@@ -24,5 +24,5 @@ xhr.onreadystatechange = function() {
 
 xhr.responseType = 'json';
 
-xhr.open('GET', 'https://mcs.piroshi07.com/getSchedule', true);
+xhr.open('GET', 'https://domain_placeholder/getSchedule', true);
 xhr.send();
